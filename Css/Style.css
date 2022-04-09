@@ -1,0 +1,324 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* Start navbar */
+.navbarGroup {
+  position: relative;
+}
+.navbarGroup::after {
+  content: "";
+  position: absolute;
+  width: 121.5%;
+  top: 26%;
+  padding-top: 35px;
+  border-bottom: 4px solid #08080894;
+}
+.navbarG1 {
+  display: flex;
+  justify-content: space-between;
+  width: 111%;
+  position: absolute;
+  top: 0.1%;
+  background-color: #08080894;
+  color: white;
+  padding: 2% 0;
+  padding: 3% 5% 2% 5%;
+}
+
+.navbarG1 .Link1 li,
+.navbarG1 .Link2 li {
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 9% 0 0 0;
+}
+.navbarG1 .Link1,
+.navbarG1 .Link2 {
+  display: flex;
+  margin: 0 8%;
+}
+.navbarG1 .Link1 li,
+.navbarG1 .Link2 li {
+  margin-left: 3%;
+  margin-right: 15%;
+}
+.LogoNav {
+  margin-top: -4%;
+  margin-left: -10%;
+}
+/* End navbar */
+
+/* Start content */
+.content {
+  position: relative;
+}
+.content h1 {
+  position: absolute;
+  top: 2%;
+  margin: 0 35%;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #755143;
+  font-size: 20px;
+}
+.content .textContent {
+  position: absolute;
+  top: 3%;
+  margin: 0 33%;
+}
+.content .textContent h2 {
+  font-weight: normal;
+  color: #fd7e00;
+  white-space: nowrap;
+  font-family: "Beau Rivage", cursive;
+  font-size: 30px;
+  word-spacing: 3px;
+  font-weight: 500;
+  position: relative;
+}
+.content .textContent h2::after {
+  content: "";
+  position: absolute;
+  left: -18%;
+  width: 140%;
+  top: 112%;
+  border-bottom: 3px double #b9b8b8;
+}
+.content p {
+  position: absolute;
+  top: 13%;
+  text-align: center;
+  width: 45%;
+  margin-left: 28%;
+  margin-top: 2%;
+  word-spacing: 2px;
+  font-weight: normal;
+}
+.titleContent {
+  position: absolute;
+  top: 115%;
+  margin-left: 46%;
+  white-space: nowrap;
+}
+.titleContent h4 {
+  position: relative;
+  text-transform: uppercase;
+  color: #fd7e00;
+  font-size: 15px;
+  font-weight: 700;
+}
+.titleContent h4::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: 120%;
+  width: 80%;
+  top: 50%;
+  border-bottom: 3px double #b9b8b8;
+}
+
+.titleContent h4::before {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: -95%;
+  width: 80%;
+  top: 50%;
+  border-bottom: 3px double #b9b8b8;
+}
+.boxContent {
+  position: absolute;
+  top: 125%;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  margin-left: 10%;
+}
+.boxContent .box1,
+.boxContent .box3 {
+  background-color: #f0e3c3c2;
+  width: 70%;
+  padding: 8% 8% 12% 8%;
+  height: 80%;
+  text-align: center;
+  position: relative;
+}
+.boxContent .box2 {
+  background-color: #686350ea;
+  width: 70%;
+  padding: 8% 8% 12% 8%;
+  height: 80%;
+  text-align: center;
+  position: relative;
+  color: white;
+}
+.boxContent img {
+  margin-top: 10%;
+}
+.boxContent .box1::after,
+.boxContent .box2::after,
+.boxContent .box3::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: 0.1%;
+  width: 100%;
+  top: 98%;
+  border-bottom: 10px solid #8b8a8a;
+}
+.boxContent .box1 h1,
+.boxContent .box2 h1 {
+  margin-left: 4%;
+}
+.boxContent .box2 h1 {
+  color: #e7dfcb;
+  text-transform: uppercase;
+  font-size: 23px;
+  position: relative;
+}
+.boxContent .box3 h1 {
+  margin-left: 1%;
+}
+.boxContent .box3 h1,
+.boxContent .box1 h1 {
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #9f8176;
+  position: relative;
+}
+.boxContent .box1 h1::after,
+.boxContent .box2 h1::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: 2%;
+  width: 100%;
+  top: 140%;
+  border-bottom: 3px double #b9b8b8;
+}
+.boxContent .box3 h1::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: 1%;
+  width: 100%;
+  top: 140%;
+  border-bottom: 3px double #b9b8b8;
+}
+
+.boxContent .box2 a {
+  margin-left: 15%;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #e7dfcb;
+  font-weight: 600;
+  text-decoration: none;
+}
+.boxContent .box3 a {
+  margin-left: 15%;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #9f8176;
+  font-weight: 600;
+  text-decoration: none;
+}
+.boxContent .box1 a {
+  margin-left: -11%;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #9f8176;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.boxContent .box1 p,
+.boxContent .box2 p,
+.boxContent .box3 p {
+  width: 100%;
+  line-height: 1.6;
+  word-spacing: 3px;
+  position: relative;
+}
+.boxContent .box1 p::after,
+.boxContent .box2 p::after,
+.boxContent .box3 p::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  left: 15%;
+  width: 70%;
+  top: 160%;
+  border-bottom: 5px solid #b9b8b8;
+}
+.photoGalerie img {
+  margin-top: 5%;
+  width: 100%;
+}
+.photoGalerie {
+  position: relative;
+}
+
+.photoGalerie .titleGalerie {
+  position: absolute;
+  top: 20%;
+  margin-left: 46%;
+  white-space: nowrap;
+}
+.photoGalerie .titleGalerie h4 {
+  position: relative;
+  text-transform: uppercase;
+  color: #866b61;
+  font-size: 20px;
+}
+.photoGalerie .titleGalerie h4::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: 120%;
+  width: 80%;
+  top: 50%;
+  border-bottom: 3px double #b9b8b8;
+}
+.photoGalerie .titleGalerie h4::before {
+  position: absolute;
+  content: "";
+  position: absolute;
+  right: -95%;
+  width: 80%;
+  top: 50%;
+  border-bottom: 3px double #b9b8b8;
+}
+.galerieBox {
+  position: absolute;
+  top: 32%;
+  display: grid;
+  grid-template-columns: 30% 30% 30% 30% 30% 30%;
+}
+.galerieBox .directionGalerie:nth-child(1) {
+  width: 10%;
+  margin-top: 30%;
+  margin-left: 70%;
+}
+.galerieBox .GalerieImg {
+  width: 80%;
+  background-color: white;
+  padding: 4%;
+}
+.galerieBox .directionGalerie:nth-last-child(1) {
+  width: 10%;
+  margin-top: 30%;
+  margin-right: 60%;
+}
+.GalerieImgGroup {
+  position: relative;
+}
+
+.GalerieImgGroup .GalerieImgG1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.582);
+  top: 10%;
+  width: 40%;
+  left: 19%;
+  padding: 8%;
+}
+/* End content */
