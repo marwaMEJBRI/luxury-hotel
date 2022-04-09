@@ -52,6 +52,7 @@ body {
 /* Start content */
 .content {
   position: relative;
+  width: 121.5%;
 }
 .content h1 {
   position: absolute;
@@ -256,12 +257,14 @@ body {
 }
 .photoGalerie {
   position: relative;
+  width: 123%;
+  margin-top: -5px;
 }
 
 .photoGalerie .titleGalerie {
   position: absolute;
   top: 20%;
-  margin-left: 46%;
+  margin-left: 39%;
   white-space: nowrap;
 }
 .photoGalerie .titleGalerie h4 {
@@ -322,3 +325,154 @@ body {
   padding: 8%;
 }
 /* End content */
+/* Start footer */
+.footer {
+  position: relative;
+}
+.footer .FooterEnd {
+  position: absolute;
+  top: 90%;
+  background-color: #3a312f;
+  width: 123%;
+  padding: 3% 0;
+}
+.footer .bgFooter {
+  width: 123%;
+  margin-top: -8%;
+  height: 360px;
+}
+.footer .FooterBox {
+  position: absolute;
+  top: -13%;
+  display: flex;
+}
+.footer .FooterBox .footerBox1 {
+  color: #a39980;
+  margin-left: 20%;
+}
+.footer .FooterBox .footerBox1 h1 {
+  text-transform: uppercase;
+  position: relative;
+  font-weight: normal;
+  font-size: 25px;
+}
+.footer .FooterBox .footerBox1 h1::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  left: -1%;
+  width: 90%;
+  top: 140%;
+  border-bottom: 3px double #b9b8b8;
+}
+.footer .FooterBox .footerBox1 p {
+  margin-top: 7%;
+  width: 70%;
+}
+.footer .FooterBox .footerBox1 .form-group {
+  display: inline-block;
+}
+.footer .FooterBox .footerBox1 input {
+  padding: 2%;
+}
+.footer .FooterBox .footerBox1 button {
+  margin-left: -10%;
+  color: white;
+  padding: 4px;
+  width: 20%;
+  background-color: #ff9a00;
+  border: 1px solid #ff9a00;
+}
+.footer .FooterBox .footerBox2 {
+  color: #a39980;
+  margin-right: 15%;
+}
+.footer .FooterBox .footerBox2 h1 {
+  text-transform: uppercase;
+  position: relative;
+  font-weight: normal;
+  font-size: 25px;
+  white-space: nowrap;
+}
+.footer .FooterBox .footerBox2 h1::after {
+  position: absolute;
+  content: "";
+  position: absolute;
+  left: -1%;
+  width: 280%;
+  top: 140%;
+  border-bottom: 3px double #b9b8b8;
+}
+.footer .FooterBox .footerBox2 .footerBlock1 {
+  display: flex;
+  margin-left: 1%;
+}
+.footer .FooterBox .footerBox2 .footerBlock1 img {
+  width: 10%;
+  height: 10%;
+  margin-top: 8%;
+}
+.footer .FooterBox .footerBox2 .footerBlock1 h5 {
+  margin-left: 8%;
+  font-weight: normal;
+}
+.footer .FooterBox .footerBox2 p {
+  margin-left: 18%;
+  width: 80%;
+  margin-top: -5%;
+  font-weight: normal;
+}
+.footer .FooterBox .footerBox2 .footerBlock2 {
+  display: flex;
+  margin-left: 1%;
+  margin-top: -8%;
+}
+.footer .FooterBox .footerBox2 .footerBlock2 img {
+  width: 8%;
+  height: 10%;
+  margin-top: 8%;
+}
+.footer .FooterBox .footerBox2 .footerBlock2 a {
+  margin-left: 8%;
+  color: #ff9a00;
+  margin-top: 8%;
+}
+.footer .FooterBox .footerBox2 .footerBlockALL {
+  margin-left: 100%;
+  margin-top: -7%;
+}
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL2 a {
+  color: #ff9a00;
+}
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL1,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL2,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL3 {
+  display: flex;
+}
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL1 img,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL2 img,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL3 img {
+  width: 20px;
+  height: 15px;
+}
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL1 h5,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL2 a,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL3 h5 {
+  white-space: nowrap;
+}
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL1 h5,
+.footer .FooterBox .footerBox2 .footerBlockALL .footerBlockALL3 h5 {
+  margin-top: 30%;
+}
+.footer .FooterBox .footerBox2 .footerIcon {
+  margin-left: 210%;
+  margin-top: -30%;
+  display: flex;
+}
+.footer .FooterBox .footerBox2 .footerIcon i:nth-child(1) {
+  margin-right: 20px;
+}
+.footer .FooterBox .footerBox2 .footerIcon i:nth-child(2) {
+  margin-right: 20px;
+}
+/* End Footer */
